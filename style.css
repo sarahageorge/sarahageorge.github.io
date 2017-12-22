@@ -1,0 +1,57 @@
+.text1{
+	font-size: 300%;
+	font-family: 'Meddon', cursive;
+}
+
+
+.images{
+	display: flex;
+	justify-content:space-around;
+}
+
+.images2{
+	display: flex;
+	justify-content: space-around;
+}
+
+.text2{
+	font-size: 170%;
+	font-family: 'Zilla Slab Highlight', cursive;
+} 
+
+.text3{
+	font-size: 120%;
+	font-family: 'Neuton', serif;
+} 
+
+
+/* Add a black background color to the top navigation */
+.navbar {
+    background-color: #1B2936;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #bdbdbd  ;
+    color: white ;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #1B2936;
+    color: black;
+}
+
+
+
